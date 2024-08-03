@@ -6,31 +6,47 @@
 src
 │
 ├── api
-│   └── userAuthApi.js          # API calls to the backend for user authentication
+│   └── userAuthApi.js         
 │
 ├── assets
-│   └── react.svg               # Image assets used in the application
+│   └── react.svg
 │
 ├── AuthContext
-│   └── AuthContext.jsx         # Context for managing authentication state
+│   └── AuthContext.jsx        
 │
 ├── Components
-│   ├── Header.jsx              # Header component with navigation and logout functionality
-│   ├── Login.jsx               # Login form component
-│   └── Register.jsx            # Register form component
+│   ├── Header.jsx              
+│   ├── Login.jsx              
+│   └── Register.jsx            
 │
 ├── Pages
-│   ├── About.jsx               # About page component
-│   ├── Home.jsx                # Home page component containing login/register toggle
-│   └── Welcome.jsx             # Protected welcome page component
+│   ├── About.jsx              
+│   ├── Home.jsx                
+│   └── Welcome.jsx            
 │
-├── App.css                     # Global CSS styles
-├── App.jsx                     # Main App component with routing
-├── index.css                   # Additional CSS styles
-└── main.jsx                    # Entry point for the React application
+├── App.css                     
+├── App.jsx                    
+├── index.css                   
+└── main.jsx                   
 ```
+### To run the Vite React app you've described, follow these steps after cloning the repository:
 
-##Key Features
+1. Clone the Repository:
+Open a terminal and clone the repository using:
+`git clone <repository-url>`
+
+2. Navigate to the Project Directory:
+`cd <project-directory>`
+
+3. Install Dependencies:
+Ensure you have Node.js and npm installed. Install the project dependencies using:
+`npm install`
+
+4. Start the Development Server:
+To start the Vite development server, use:
+`npm run dev`
+
+## Key Features
 ### 1. User Registration and Login:
 - Users can register with a unique username, valid email, and a password that meets length criteria.
 - Login requires correct username and password combination.
