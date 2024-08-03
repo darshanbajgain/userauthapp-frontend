@@ -1,5 +1,6 @@
 # UserAuth Frontend Documentation
-## Project Overview: This project implements user authentication using React for the frontend and Spring Boot for the backend. Users can register, log in, and access a protected welcome page after successful login. The application includes client-side validation to ensure user inputs meet specific criteria before sending requests to the server.
+## Project Overview: 
+- This project implements user authentication using React for the frontend and Spring Boot for the backend. Users can register, log in, and access a protected welcome page after successful login. The application includes client-side validation to ensure user inputs meet specific criteria before sending requests to the server.
 
 ## Project Structure
 ```graphql
