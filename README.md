@@ -33,10 +33,10 @@ src
 
 1. Clone the Repository:
 Open a terminal and clone the repository using:
-`git clone <repository-url>`
+`git clone https://github.com/darshanbajgain/userauthapp-frontend.git`
 
 2. Navigate to the Project Directory:
-`cd <project-directory>`
+`cd userauthapp-frontend`
 
 3. Install Dependencies:
 Ensure you have Node.js and npm installed. Install the project dependencies using:
